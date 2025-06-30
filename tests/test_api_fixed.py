@@ -20,7 +20,7 @@ def test_lille_api():
     print(f"✅ Prix: {prix} €/m²")
 
     assert response.status_code == 200
-    assert prix > 0  # On veut un prix positif
+    assert prix > 0  
 
 
 # Test de l'API Bordeaux

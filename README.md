@@ -48,19 +48,19 @@ L'API sera accessible sur [http://localhost:8000](http://localhost:8000)
 - **Body JSON exemple :**
 ```json
 {
-    "surface_bati": 100,
-    "nombre_pieces": 4,
-    "type_local": "Appartement",
-    "surface_terrain": 0,
-    "nombre_lots": 1
+  "surface_bati": 100,
+  "nombre_pieces": 2,
+  "type_local": "maison",
+  "surface_terrain": 0,
+  "nombre_lots": 2
 }
 ```
 - **Réponse JSON :**
 ```json
 {
-  "prix_m2_estime": 7243.19,
+  "prix_m2_estime": 2592.6,
   "ville_modele": "Lille",
-  "model": "RandomForestRegressor",
+  "model": "LinearRegression",
   "note": "Modèle entraîné et évalué sur Lille"
 }
 ```
